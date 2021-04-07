@@ -26,7 +26,7 @@ try:
     driver.find_element_by_xpath('//input[@class="text-input login-form__input"]').send_keys('ariane.r@techflow.ai') # send_keys('Login Email-address')
     driver.find_element_by_xpath('//button/span/span/span[text()="Continue"]').click()
     t.sleep(3)
-    driver.find_element_by_xpath('//input[@class="text-input login-form__input"]').send_keys('D8yb7Ss35kzd') # send_keys('Login Password')
+    driver.find_element_by_xpath('//input[@class="text-input login-form__input"]').send_keys('') # send_keys('Login Password')
     driver.find_element_by_xpath('//button/span/span/span[text()="Continue"]').click()
     t.sleep(3)
 
